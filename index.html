@@ -83,10 +83,17 @@
             botao.addEventListener("click", botaoClicado);
         });
 
-        function botaoClicado(event) {
-            let texto = event.currentTarget.querySelector("span");
+        function botaoClicado() {
+            let texto =botao.querySelector("span");
            
-            texto.textContent++;
+            if(curtiu == false){
+              texto.textContent++;
+              curtiu = true;
+            } else {
+                text.texto==;curtiu = false
+                curtiu = false
+            }
+            6
         }
     </script>
 
